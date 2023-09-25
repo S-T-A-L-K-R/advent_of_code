@@ -1,0 +1,6 @@
+services:
+  scr:
+    build: .
+    volumes:
+      - .:/python
+    network_mode: host
